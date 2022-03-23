@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dancing+Script&family=Fredoka:wght@300;600&family=Quicksand:wght@300;600&family=Titillium+Web:wght@200&display=swap');
+
+body{
+  background-color: #dfdfdf;
+  font-family: 'Comfortaa', cursive;
+}
+nav{
+  font-family: 'Fredoka', sans-serif;
+}
+hr{
+  border: 2px solid #002c45;
+  opacity: 100%;
+  border-radius: 2px;
+}
+h1{
+  font-weight: 700;
+}
+h3{
+  font-weight: 700;
+}
+h5{
+  font-weight: 600;
+}
+#body-container{
+  background-color: #eeeeee;
+  padding: 30px;
+  margin: 20px auto;
+  border: 1px solid #cacacaee;
+}
+.about-row{
+  padding: 20px;
+}
+.about-content{
+  padding: 50px;
+}
+.profile-picture{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 20px;
+}
+.about-me{
+  text-align: justify;
+}
+.myname{
+  margin-bottom: 50px;
+  color: white;
+  text-align: center;
+  border-radius:7px;
+  background-color: #002c45;
+  font-family: 'Dancing Script', cursive;
+}
+.academic-box{
+  text-align: center;
+}
+.academic-content{
+  padding: 50px;
+}
+.business-box{
+  text-align: center; 
+  margin: 20px 0px;  
+}
+.card{
+  border: 1px solid rgba(0, 44, 69, 0.3);
+  height: 100%;
+}
+.card:hover{ 
+ transform: scale(1.015);
+ box-shadow: 1.5px 1.5px 10px gray;
+ transition: all 0.5s ease;
+ cursor: pointer;
+}
+.img-business{
+  border-bottom: 0.02px solid rgba(0, 44, 69, 0.2);  
+}
+.img-school{
+  width: 300px;
+  height: 300px;
+}
+#businessTitleBox h3{
+  display: inline;
+  margin-right: 10px;
+}
+.job{
+  margin: 40px 30px;
+  border-left: 5px solid #002c45;
+  text-align: justify;
+  padding-right: 50px;
+}
+.btn-cv-box{
+  margin: 30px auto;
+}
+.btn-cv{
+  width: 300px;
+  background-color: #0270af;
+}
+.btn-cv:hover{
+  background-color: #002c45;
+}
+.btn-cv:focus{
+ outline: none;
+ box-shadow: none;
+}
+.functions{
+  padding: 0px 50px;
+  text-align: justify;
+}
+.habilities{
+  margin: 10px 30px;
+}
+.li-hability{
+  list-style: none;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.li-icon{
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius:10px;
+  border: 2px solid #002c45;
+
+}
+
+footer{
+  height: 230px;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+.social-icons{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin: 10px 10px;
+}
+.author-footer{
+  padding-top: 30px;
+  font-size: 12px;
+}
+
+/* Otro codigo */
+
+/* .job-container{
+  padding: 0px 50px;
+  
+} */
+/* .job-content{
+  padding: 20px 50px;
+}
+.job-functions{
+  padding-left: 50px;
+  
+} */

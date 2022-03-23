@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Eduardo Galindo</title>
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-fixed navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">EG</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#school">Formación Academica</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#job-experience" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Experiencia Laboral
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#job-experience" id="ine-nav">INE</a></li>
+              <li><a class="dropdown-item" href="#job-experience" id="iee-nav">IEE</a></li>
+              <li><a class="dropdown-item" href="#job-experience" id="inegi-nav">INEGI</a></li>
+              <li><a class="dropdown-item" href="#job-experience" id="getic-nav">GETIC</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#habilities">Conocimientos y Habilidades</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido -->
+  <main>
+    <div class="container" id="body-container">
+      <!-- About Section -->
+      <div class="row about-row">
+        <div class="col-lg-3 col-md-12 text-center">
+          <img src="images/profilePicture.jpg" class="profile-picture">
+        </div>
+
+        <div class="col-lg-9 col-md-12 about-content">
+          <h1 id="about">Sobre mí</h1>
+          <hr class="hr-style">
+          <p class="about-me">
+            Soy Ingeniero en Sistemas Computacionales, egresado del Instituto Técnológico de Parral. 
+            Amante de la tecnología, el cine, los video juegos, las plataformas de streaming y los podcasts, 
+            fan de la música de José Madero y admirador de las mentes creativas. Me gusta ser autodidacta
+            y entender el ¿por qué? de las cosas, siempre estoy buscando aprender cosas nuevas, 
+            especialmente si se trata de programación.            
+          </p>
+        </div>
+      </div>
+
+      <!-- My name -->
+      <div class="row">
+        <div class="col-12 myname">
+          <h1>Felipe Eduardo Galindo Hernández</h1>
+        </div>
+      </div>
+
+      <!-- Academic Training Section -->
+      <div class="row">
+
+        <div class="col-12">
+          <h1 id="school">Formación Academica</h1>
+          <hr>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 academic-box">
+          <img src="images/logos/itp-logo.png" alt="" class="img-school" id="itp">
+        </div>
+
+        <div class="col-lg-8 col-sm-12 academic-content">
+          <h3>Ingeniería en Sistemas Computacionales</h3>
+          <h5>Instituto Tecnológico de Parral</h5>
+          <p>2017-2013</p>
+        </div>     
+
+      </div>
+
+      <!-- Work Experience Section -->
+      <div class="row">
+
+        <div class="col-12">          
+          <h1 id="job-experience">Experiencia Laboral</h1>
+          <hr>
+        </div>     
+
+        <div class="col-lg-3 col-sm-6 business-box">
+          <div class="card business-card" >
+            <img src="images/logos/ine-logo.png" alt="" class="img-business" id="ine">
+            <div class="card-body">
+              <p class="card-text">Instituto Nacional Electoral</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 business-box">
+          <div class="card" >
+            <img src="images/logos/iee-logo.png" alt="" class="img-business" id="iee">
+            <div class="card-body">
+              <p class="card-text">Instituto Estatal Electoral</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 business-box">
+          <div class="card" >
+            <img src="images/logos/inegi-logo.png" alt="" class="img-business" id="inegi">
+            <div class="card-body">
+              <p class="card-text">Instituto Nacional de Estadística y Geografía</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 business-box">
+          <div class="card" >
+            <img src="images/logos/getic-logo.png" alt="" class="img-business" id="getic">
+            <div class="card-body">
+              <p class="card-text">Grupo Especializado en Tecnología Informática y Comunicaciones</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class=" row jobs-container">               
+      </div>
+
+     <!-- <div class="row btn-cv-box">
+       <div class="col-12 text-end">
+          <button class="btn btn-primary btn-cv">Ver en Orden Cronológico</button>
+       </div>       
+     </div> -->
+
+     <!-- Habilities Section -->
+     <div class="row">
+       <div class="col-12">
+         <h1 id="habilities">Conocimientos y Habilidades</h1>
+         <hr>
+       </div>
+       <div class="col-12 habilities">
+         <ul>
+           <li class="li-hability"><img src="./images/icons-img/Support.png" class="li-icon" alt="" > Soporte Técnico a Usuarios.</li>
+           <li class="li-hability"><img src="./images/icons-img/xls.png" class="li-icon" alt="" > Buen dominio de excel.</li>
+           <li class="li-hability"><img src="./images/icons-img/inventory.png" class="li-icon" alt="" > Control de Inventarios de equipos de Cómputo.</li>
+           <li class="li-hability"><img src="./images/icons-img/trainingpeople.png" class="li-icon" alt="" > Capacitación a personal para el manejo de dispositivos de computo y sistemas de captación de información.</li>
+           <li class="li-hability"><img src="./images/icons-img/hddCopy.png" class="li-icon" alt="" > Respaldo de información y clonación de discos duros.</li>
+           <li class="li-hability"><img src="./images/icons-img/pc mantainance.png" class="li-icon" alt="" > Mantenimiento preventivo y correctivo a equipos de computo.</li>
+           <li class="li-hability"><img src="./images/icons-img/periferics.png" class="li-icon" alt="" > Instalación de periféricos.</li>
+         </ul>
+       </div>
+     </div>
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h5>Redes sociales</h5>
+          <a href="https://facebook.com/eduardo.galindoh" target="blank"><img src="./images/icons-img/Facebook.png" alt="" class="social-icons"></a>
+          <a href="https://instagram.com/fedugalher" target="blank"><img src="./images/icons-img/Instagram.png" alt="" class="social-icons"></a>
+          <a href="https://twitter.com/fedugalher" target="blank"><img src="./images/icons-img/Twitter.png" alt="" class="social-icons"></a>
+
+        </div>
+      </div>
+     <div class="row">
+       <div class="col-lg-12 author-footer">
+         <p>
+            Felipe Eduardo Galindo Hernández <br>
+            eduardo.galindohdz@gmail.com <br>
+            Hidalgo del Parral, Chihuahua.
+         </p>
+        </div>       
+     </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

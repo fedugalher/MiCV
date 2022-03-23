@@ -1,0 +1,110 @@
+{
+  "ine":{
+    "businessName" : "Instituto Nacional Electoral",
+    "jobs" : [
+      {
+        "jobName"   : "Técnico en Capacitación Electoral",
+        "startDate" : "1/Nov/2021",
+        "endDate"   : "22/Feb/2022",
+        "functions" : "Apoyar a la Vocalia de Capacitación Electoral y Educación Cívica en el proceso de reclutamiento y selección de Supervisores Electorales y Capacitadores Asistentes Electorales. Coordinar a Supervisores Electorales y Capacitadores en las actividades de visita, notificación y capacitación a los ciudadanos sorteados para formar las mesas directivas de casilla. Apoyar en las actividades del día de la Jornada Electoral. Además de apoyar en actividades administrativas en la Vocalía."
+      },
+      {
+        "jobName"   : "Técnico de Sistemas",
+        "startDate" : "1/Sep/2021",
+        "endDate"   : "21/Oct/2021",
+        "functions" : "Apoyar al departamento de Sistemas durante el proceso de migración de equipos de computo del personal de la Junta Local Ejecutiva, así como en la preparación de sesiones virtuales."
+      },
+      {
+        "jobName"   : "Técnico en Capacitación Electoral",
+        "startDate" : "1/Jul/2021",
+        "endDate"   : "15/Ago/2021",
+        "functions" : "Apoyar a la Vocalia de Capacitación Electoral y Educación Cívica en el proceso de reclutamiento y selección de Supervisores Electorales y Capacitadores Asistentes Electorales. Coordinar a Supervisores Electorales y Capacitadores en las actividades de visita, notificación y capacitación a los ciudadanos sorteados para formar las mesas directivas de casilla. Apoyar en las actividades del día de la Jornada Electoral. Además de apoyar en actividades administrativas en la Vocalía."
+      },
+      {
+        "jobName"   : "Técnico en Capacitación Electoral",
+        "startDate" : "1/Oct/2020",
+        "endDate"   : "30/Jun/2021",
+        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+      },
+      {
+        "jobName"   : "Capturista",
+        "startDate" : "1/Nov/2017",
+        "endDate"   : "15/Dic/2018",
+        "functions" : "Capturar la información de los talones de visita, notificación y capacitación de los ciudadanos sorteados para formar las mesas directivas de casilla, entregados por los Capacitadores Asistentes Electorales, asi como captura de simulacros, practicas, verificaciones, etc."
+      }
+    ]    
+  },
+
+  "iee":{
+    "businessName" : "Instituto Estatal Electoral",
+    "jobs" : [
+      {
+        "jobName"   : "Capturista",
+        "startDate" : "2/Abr/2013",
+        "endDate"   : "8/Jul/2013",
+        "functions" : "Capturar la información de los talones de visita, notificación y capacitación de los ciudadanos sorteados para formar las mesas directivas de casilla, entregados por los Capacitadores Asistentes Electorales, asi como captura de simulacros, practicas, verificaciones, etc."
+      }
+    ]     
+  },
+
+  "inegi":{
+    "businessName" : "Instituto Nacional de Estadística y Geografía",
+    "jobs" : [
+      {
+        "jobName"   : "Soporte Informático Municipal",
+        "startDate" : "1/Jan/2020",
+        "endDate"   : "15/May/2020",
+        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+      },
+      {
+        "jobName"   : "Soporte Informático",
+        "startDate" : "3/Jan/2019",
+        "endDate"   : "31/May/2019",
+        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+      },
+      {
+        "jobName"   : "Técnico Informático de la Jefatura de Zona",
+        "startDate" : "18/Jul/2016",
+        "endDate"   : "31/Dic/2016",
+        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+      },
+      {
+        "jobName"   : "Soporte Técnico de Zona de Proyectos Estadísticos",
+        "startDate" : "2/Feb/2015",
+        "endDate"   : "30/Jun/2015",
+        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+      },
+      {
+        "jobName"   : "Soporte Técnico de Zona",
+        "startDate" : "25/Jun/2014",
+        "endDate"   : "15/Dic/2014",
+        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+      },
+      {
+        "jobName"   : "Analista de Sistemas",
+        "startDate" : "12/May/2014",
+        "endDate"   : "24/Jun/2014",
+        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+      },
+      {
+        "jobName"   : "Censor",
+        "startDate" : "1/Feb/2014",
+        "endDate"   : "25/Abr/2014",
+        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+      }
+    ]     
+  },
+
+  "getic":{
+    "businessName" : "Grupo Especializado en Tecnología Informática y Comunicaciones",
+    "jobs" : [
+      {
+        "jobName"   : "Ingeniero de Soporte en Campo",
+        "startDate" : "13/Feb/2017",
+        "endDate"   : "6/May/2017",
+        "functions" : "Realizar la transición del sistema de punto de venta de las tiendas Oxxo al sistema XPOS, hacer pruebas del sistema y dar soporte en sitio a las tiendas con el nuevo sistema"
+      }
+    ]    
+    
+  }
+}
