@@ -77,7 +77,7 @@ const clearJobs = () => {
 const getJobs = async (business) => {
 
   //Se hace la peticion por medio de promesas con el metodo get por defecto
-  const peticion = await fetch('../documents/jobs.json');
+  const peticion = await fetch('./documents/jobs.json');
   const resultado = await peticion.json();
 
   let jobsContainer = document.querySelector('.jobs-container');
