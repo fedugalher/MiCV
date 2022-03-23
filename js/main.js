@@ -69,7 +69,10 @@ const printJobs = business => {
 //Limpiar los puestos desempeñados
 const clearJobs = () => {
   let jobsContainer = document.querySelector('.jobs-container');
+  let businessTitle = document.querySelector('#business-title');
   jobsContainer.textContent = '';
+  console.log(businessTitle);
+  jobsContainer.appendChild(businessTitle);
   
 }
 
@@ -77,16 +80,16 @@ const clearJobs = () => {
 const getJobs = async (business) => {
 
   //Se hace la peticion por medio de promesas con el metodo get por defecto
-  const peticion = await fetch('../MiCV/documents/jobs.json');
+  // const peticion = await fetch('../MiCV/documents/jobs.json'); //Produccion
+  const peticion = await fetch('../documents/jobs.json'); //Desarrollo
   const resultado = await peticion.json();
 
   let jobsContainer = document.querySelector('.jobs-container');
-  let businessTitle = document.createElement('H3');      
-  let fragment = document.createDocumentFragment();
-  businessTitle.setAttribute('id', 'business-title');      
+  let businessTitle = document.querySelector('#business-title');      
+  let fragment = document.createDocumentFragment();     
   businessTitle.textContent = resultado[business].businessName; 
      
-  if(jobsContainer.firstElementChild == null){   
+  if(jobsContainer.firstElementChild == businessTitle){   
     for (const job in resultado[business].jobs) {
       let jobContainerRow = document.createElement('DIV');
       let jobTitleCol = document.createElement('DIV');
@@ -96,7 +99,7 @@ const getJobs = async (business) => {
       let jobProject = document.createElement('P');
       let jobDesc = document.createElement('P');
 
-      jobsContainer.appendChild(businessTitle);
+      //jobsContainer.appendChild(businessTitle);
       
 
       //Asignar Atributos
