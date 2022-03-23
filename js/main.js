@@ -80,8 +80,8 @@ const clearJobs = () => {
 const getJobs = async (business) => {
 
   //Se hace la peticion por medio de promesas con el metodo get por defecto
-  // const peticion = await fetch('../MiCV/documents/jobs.json'); //Produccion
-  const peticion = await fetch('../documents/jobs.json'); //Desarrollo
+  const peticion = await fetch('../MiCV/documents/jobs.json'); //Produccion
+  // const peticion = await fetch('../documents/jobs.json'); //Desarrollo
   const resultado = await peticion.json();
 
   let jobsContainer = document.querySelector('.jobs-container');
