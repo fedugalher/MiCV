@@ -9,6 +9,7 @@ let ineNav = document.getElementById('ine-nav');
 let ieeNav = document.getElementById('iee-nav');
 let inegiNav = document.getElementById('inegi-nav');
 let geticNav = document.getElementById('getic-nav');
+let history = document.getElementById('btn-history');
 
 /*----------------------------------------------------------------
                             Eventos click
@@ -43,6 +44,10 @@ inegiNav.addEventListener("click", e => {
 geticNav.addEventListener("click", e => {     
   printJobs('getic');  
 });
+history.addEventListener("click", e =>{
+  clearJobs('history');
+  getJobsHistory();
+});
 //Usando e.target
 document.addEventListener('click', e =>{
   let isNavLink = e.target.classList.contains('nav-link');
@@ -52,13 +57,12 @@ document.addEventListener('click', e =>{
     let activeNavLink = document.querySelector('.active');
     activeNavLink.classList.remove('active');
     currentNavLink.classList.add('active');
-
   }
 });
 
 
 const printJobs = business => {
-  //Primero se limpia el contenido para cuando se seleccione otra empresa, no se empalmen con los de la anterior
+  //Primero se limpia el contenido para cuando se seleccione otra empresa, no se empalmen con los de la anterior  
   clearJobs();
   // Se llama a la funcion getJobs para obtener los contenedores con cada trabajo
   getJobs(business); 
@@ -67,12 +71,14 @@ const printJobs = business => {
 
 
 //Limpiar los puestos desempeñados
-const clearJobs = () => {
-  let jobsContainer = document.querySelector('.jobs-container');
-  let businessTitle = document.querySelector('#business-title');
-  jobsContainer.textContent = '';
-  console.log(businessTitle);
-  jobsContainer.appendChild(businessTitle);
+const clearJobs = () => { 
+ 
+    let jobsContainer = document.querySelector('.jobs-container'); 
+    let businessTitle = document.querySelector('#business-title');
+    jobsContainer.textContent = '';  
+    businessTitle.textContent= '';   
+    jobsContainer.appendChild(businessTitle); 
+  
   
 }
 
@@ -81,7 +87,7 @@ const getJobs = async (business) => {
 
   //Se hace la peticion por medio de promesas con el metodo get por defecto
   const peticion = await fetch('../MiCV/documents/jobs.json'); //Produccion
-  // const peticion = await fetch('../documents/jobs.json'); //Desarrollo
+  // const peticiongit = await fetch('../documents/jobs.json'); //Desarrollo
   const resultado = await peticion.json();
 
   let jobsContainer = document.querySelector('.jobs-container');
@@ -112,7 +118,7 @@ const getJobs = async (business) => {
       //Asignar texto      
       jobTitle.textContent = resultado[business].jobs[job].jobName;
       jobDate.textContent = `${resultado[business].jobs[job].startDate} - ${resultado[business].jobs[job].endDate}`;
-      jobProject.innerHTML += `<b>Proyecto: </b>`+ `Nombre del Proyecto`;
+      jobProject.innerHTML += `<b>Proyecto: </b>`+ `${resultado[business].jobs[job].project}`;
       jobDesc.innerHTML = `<b>Funciones: </b>${resultado[business].jobs[job].functions}`;
 
       //Agregar Divs
@@ -130,6 +136,64 @@ const getJobs = async (business) => {
 
 }
 
+
+//----------------------------------------Jobs History----------------------------------------
+//Obtener los puestos desempeñados
+const getJobsHistory = async () => {
+
+  //Se hace la peticion por medio de promesas con el metodo get por defecto
+  const peticion = await fetch('../MiCV/documents/jobsHistory.json'); //Produccion
+  // const peticion = await fetch('../documents/jobsHistory.json'); //Desarrollo
+  const resultado = await peticion.json();
+
+  let jobsContainer = document.querySelector('.jobs-container');
+  let businessTitle = document.querySelector('#business-title');      
+  let fragment = document.createDocumentFragment();     
+  // businessTitle.textContent = resultado[business].businessName; 
+  //console.log(resultado)
+  if(jobsContainer.firstElementChild == businessTitle){   
+    for (const job in resultado) {
+      let jobContainerRow = document.createElement('DIV');
+      let jobTitleCol = document.createElement('DIV');
+      let jobDescCol = document.createElement('DIV');
+      let businessTitle = document.createElement('H5')
+      let jobTitle = document.createElement('H6');
+      let jobDate = document.createElement('P');
+      let jobProject = document.createElement('P');
+      let jobDesc = document.createElement('P');
+
+      //jobsContainer.appendChild(businessTitle);
+      
+
+      //Asignar Atributos
+      jobContainerRow.setAttribute('class', 'row job');
+      jobTitleCol.setAttribute('class', 'col-lg-4');
+      jobDescCol.setAttribute('class', 'col-lg-8');
+      jobDate.setAttribute('class', 'job-date');
+      jobDesc.setAttribute('class', 'job-functions align-middle')
+
+      //Asignar texto
+      businessTitle.textContent = resultado[job].businessName;
+      jobTitle.innerHTML = `<br><br><b>${resultado[job].jobName}</b>`;
+      jobDate.textContent = `${resultado[job].startDate} - ${resultado[job].endDate}`;
+      jobProject.innerHTML += `<b>Proyecto: </b>`+ `${resultado[job].project}`;
+      jobDesc.innerHTML = `<b>Funciones: </b>${resultado[job].functions}`;
+
+      //Agregar Divs
+      jobTitleCol.appendChild(businessTitle);
+      jobTitleCol.appendChild(jobTitle);
+      jobTitleCol.appendChild(jobDate);
+      jobDescCol.appendChild(jobProject);
+      jobDescCol.appendChild(jobDesc);
+      jobContainerRow.appendChild(jobTitleCol);
+      jobContainerRow.appendChild(jobDescCol);
+      fragment.appendChild(jobContainerRow);
+    }    
+  }
+
+  jobsContainer.appendChild(fragment);
+
+}
 
 
 

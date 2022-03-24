@@ -1,0 +1,114 @@
+[
+  {
+    "businessName"  : "Instituto Nacional Electoral",
+    "project"       : "Revocación de Mandato 2022",
+    "jobName"       : "Técnico en Capacitación Electoral",
+    "startDate"     : "1/Nov/2021",
+    "endDate"       : "22/Feb/2022",
+    "functions"     : "Apoyar a la Vocalia de Capacitación Electoral y Educación Cívica en el proceso de reclutamiento y selección de Supervisores Electorales y Capacitadores Asistentes Electorales. Coordinar a Supervisores Electorales y Capacitadores en las actividades de visita, notificación y capacitación a los ciudadanos sorteados para formar las mesas directivas de casilla. Apoyar en las actividades del día de la Jornada Electoral. Además de apoyar en actividades administrativas en la Vocalía."
+  },
+  {
+    "businessName"  : "Instituto Nacional Electoral",
+    "project"       : "-",
+    "jobName"       : "Técnico de Sistemas",
+    "startDate"     : "1/Sep/2021",
+    "endDate"       : "21/Oct/2021",
+    "functions"     : "Apoyar al departamento de Sistemas durante el proceso de migración de equipos de computo del personal de la Junta Local Ejecutiva, así como en la preparación de sesiones virtuales."
+  },
+  {
+    "businessName"  : "Instituto Nacional Electoral",
+    "project"       : "Consulta Popular 2021",
+    "jobName"       : "Técnico en Capacitación Electoral",
+    "startDate"     : "1/Jul/2021",
+    "endDate"       : "15/Ago/2021",
+    "functions"     : "Apoyar a la Vocalia de Capacitación Electoral y Educación Cívica en el proceso de reclutamiento y selección de Supervisores Electorales y Capacitadores Asistentes Electorales. Coordinar a Supervisores Electorales y Capacitadores en las actividades de visita, notificación y capacitación a los ciudadanos sorteados para formar las mesas directivas de casilla. Apoyar en las actividades del día de la Jornada Electoral. Además de apoyar en actividades administrativas en la Vocalía."
+  },
+  {
+    "businessName"  : "Instituto Nacional Electoral",
+    "project"       : "Proceso Electoral 2020-2021",
+    "jobName"       : "Técnico en Capacitación Electoral",
+    "startDate"     : "1/Oct/2020",
+    "endDate"       : "30/Jun/2021",
+    "functions"     : "Apoyar a la Vocalia de Capacitación Electoral y Educación Cívica en el proceso de reclutamiento y selección de Supervisores Electorales y Capacitadores Asistentes Electorales. Coordinar a Supervisores Electorales y Capacitadores en las actividades de visita, notificación y capacitación a los ciudadanos sorteados para formar las mesas directivas de casilla. Apoyar en las actividades del día de la Jornada Electoral. Además de apoyar en actividades administrativas en la Vocalía."
+  },
+  {
+    "businessName" : "Instituto Nacional de Estadística y Geografía",
+    "project"      : "Censo de Población y Vivienda 2020",
+    "jobName"      : "Soporte Informático Municipal",
+    "startDate"    : "1/Jan/2020",
+    "endDate"      : "15/May/2020",
+    "functions"    : "Llevar un control del inventario de dispositivos de computo móviles del personal de campo y personal administrativo. Dar asesoria y soporte técnico en el manejo de sistemas. realizar una bitácora de servicios proporcionados a los usuarios como fallas reportadas y solución de las mismas."
+  },
+  {
+    "businessName" : "Instituto Nacional de Estadística y Geografía",
+    "project"      : "Censo Económico 2019",
+    "jobName"      : "Soporte Informático",
+    "startDate"    : "3/Jan/2019",
+    "endDate"      : "31/May/2019",
+    "functions"    : "Llevar un control del inventario de dispositivos de computo móviles del personal de campo y personal administrativo. Dar asesoria y soporte técnico en el manejo de sistemas. realizar una bitácora de servicios proporcionados a los usuarios como fallas reportadas y solución de las mismas."
+  },
+  {
+    "businessName"  : "Instituto Nacional Electoral",
+    "project"       : "Proceso Electoral 2017-2018",
+    "jobName"       : "Capturista",
+    "startDate"     : "1/Nov/2017",
+    "endDate"       : "15/Dic/2018",
+    "functions"     : "Capturar la información de los talones de visita, notificación y capacitación de los ciudadanos sorteados para formar las mesas directivas de casilla, entregados por los Capacitadores Asistentes Electorales, asi como captura de simulacros, practicas, verificaciones, etc."
+  },
+  {
+    "businessName" : "Grupo Especializado en Tecnología Informática y Comunicaciones",
+    "project"      : "Transición de sistema XPOS a tiendas Oxxo",
+    "jobName"      : "Ingeniero de Soporte en Campo",
+    "startDate"    : "13/Feb/2017",
+    "endDate"      : "6/May/2017",
+    "functions"    : "Realizar la transición del sistema de punto de venta de las tiendas Oxxo al sistema XPOS, hacer pruebas del sistema y dar soporte en sitio a las tiendas con el nuevo sistema"
+  },
+  {
+    "businessName" : "Instituto Nacional de Estadística y Geografía",
+    "project"      : "Actualización del Marco Geoestadístico del Censo Agropecuario 2017",
+    "jobName"      : "Técnico Informático de la Jefatura de Zona",
+    "startDate"    : "18/Jul/2016",
+    "endDate"      : "31/Dic/2016",
+    "functions"    : "Llevar un control del inventario de dispositivos de computo móviles del personal de campo y personal administrativo. Dar asesoria y soporte técnico en el manejo de sistemas. realizar una bitácora de servicios proporcionados a los usuarios como fallas reportadas y solución de las mismas."
+  },
+  {
+    "businessName" : "Instituto Nacional de Estadística y Geografía",
+    "project"      : "Encuesta Intercensal 2015",
+    "jobName"      : "Soporte Técnico de Zona de Proyectos Estadísticos",
+    "startDate"    : "2/Feb/2015",
+    "endDate"      : "30/Jun/2015",
+    "functions"    : "Llevar un control del inventario de dispositivos de computo móviles del personal de campo y personal administrativo. Dar asesoria y soporte técnico en el manejo de sistemas. realizar una bitácora de servicios proporcionados a los usuarios como fallas reportadas y solución de las mismas."
+  },
+  {
+    "businessName" : "Instituto Nacional de Estadística y Geografía",
+    "project"      : "Actualización Cartográfica del MArco Geostadístico",
+    "jobName"      : "Soporte Técnico de Zona",
+    "startDate"    : "25/Jun/2014",
+    "endDate"      : "15/Dic/2014",
+    "functions"    : "Llevar un control del inventario de dispositivos de computo móviles del personal de campo y personal administrativo. Dar asesoria y soporte técnico en el manejo de sistemas. realizar una bitácora de servicios proporcionados a los usuarios como fallas reportadas y solución de las mismas."
+  },
+  {
+    "businessName" : "Instituto Nacional de Estadística y Geografía",
+    "project"      : "Muestra Rural del Censo Económico 2014",
+    "jobName"      : "Analista de Sistemas",
+    "startDate"    : "12/May/2014",
+    "endDate"      : "24/Jun/2014",
+    "functions"    : "Llevar un control del inventario de dispositivos de computo móviles del personal de campo y personal administrativo. Dar asesoria y soporte técnico en el manejo de sistemas. realizar una bitácora de servicios proporcionados a los usuarios como fallas reportadas y solución de las mismas."
+  },
+  {
+    "businessName" : "Instituto Nacional de Estadística y Geografía",
+    "project"      : "Censo Económico 2014",
+    "jobName"      : "Censor",
+    "startDate"    : "1/Feb/2014",
+    "endDate"      : "25/Abr/2014",
+    "functions"    : "Acudir a los domicilios de las áreas geostadísticas correspondientes para realizar el censo económico a los establecimientos o viviendas en las que se realizan actividades económicas y reportar al Supervisor los avances diarios"
+  },
+  {
+    "businessName"  : "Instituto Estatal Electoral",
+    "project"       : "Proceso Electoral 2012-2013",
+    "jobName"       : "Capturista",
+    "startDate"     : "2/Abr/2013",
+    "endDate"       : "8/Jul/2013",
+    "functions"     : "Capturar la información de los talones de visita, notificación y capacitación de los ciudadanos sorteados para formar las mesas directivas de casilla, entregados por los Capacitadores Asistentes Electorales, asi como captura de simulacros, practicas, verificaciones, etc."
+  }
+]

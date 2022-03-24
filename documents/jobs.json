@@ -4,30 +4,35 @@
     "jobs" : [
       {
         "jobName"   : "Técnico en Capacitación Electoral",
+        "project"   : "Revocación de Mandato 2022",
         "startDate" : "1/Nov/2021",
         "endDate"   : "22/Feb/2022",
         "functions" : "Apoyar a la Vocalia de Capacitación Electoral y Educación Cívica en el proceso de reclutamiento y selección de Supervisores Electorales y Capacitadores Asistentes Electorales. Coordinar a Supervisores Electorales y Capacitadores en las actividades de visita, notificación y capacitación a los ciudadanos sorteados para formar las mesas directivas de casilla. Apoyar en las actividades del día de la Jornada Electoral. Además de apoyar en actividades administrativas en la Vocalía."
       },
       {
         "jobName"   : "Técnico de Sistemas",
+        "project"   : "-",
         "startDate" : "1/Sep/2021",
         "endDate"   : "21/Oct/2021",
         "functions" : "Apoyar al departamento de Sistemas durante el proceso de migración de equipos de computo del personal de la Junta Local Ejecutiva, así como en la preparación de sesiones virtuales."
       },
       {
         "jobName"   : "Técnico en Capacitación Electoral",
+        "project"   : "Consulta Popular 2021",
         "startDate" : "1/Jul/2021",
         "endDate"   : "15/Ago/2021",
         "functions" : "Apoyar a la Vocalia de Capacitación Electoral y Educación Cívica en el proceso de reclutamiento y selección de Supervisores Electorales y Capacitadores Asistentes Electorales. Coordinar a Supervisores Electorales y Capacitadores en las actividades de visita, notificación y capacitación a los ciudadanos sorteados para formar las mesas directivas de casilla. Apoyar en las actividades del día de la Jornada Electoral. Además de apoyar en actividades administrativas en la Vocalía."
       },
       {
         "jobName"   : "Técnico en Capacitación Electoral",
+        "project"   : "Proceso Electoral 2020-2021",
         "startDate" : "1/Oct/2020",
         "endDate"   : "30/Jun/2021",
-        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+        "functions" : "Apoyar a la Vocalia de Capacitación Electoral y Educación Cívica en el proceso de reclutamiento y selección de Supervisores Electorales y Capacitadores Asistentes Electorales. Coordinar a Supervisores Electorales y Capacitadores en las actividades de visita, notificación y capacitación a los ciudadanos sorteados para formar las mesas directivas de casilla. Apoyar en las actividades del día de la Jornada Electoral. Además de apoyar en actividades administrativas en la Vocalía."
       },
       {
         "jobName"   : "Capturista",
+        "project"   : "Proceso Electoral 2017-2018",
         "startDate" : "1/Nov/2017",
         "endDate"   : "15/Dic/2018",
         "functions" : "Capturar la información de los talones de visita, notificación y capacitación de los ciudadanos sorteados para formar las mesas directivas de casilla, entregados por los Capacitadores Asistentes Electorales, asi como captura de simulacros, practicas, verificaciones, etc."
@@ -40,6 +45,7 @@
     "jobs" : [
       {
         "jobName"   : "Capturista",
+        "project"   : "Proceso Electoral 2012-2013",
         "startDate" : "2/Abr/2013",
         "endDate"   : "8/Jul/2013",
         "functions" : "Capturar la información de los talones de visita, notificación y capacitación de los ciudadanos sorteados para formar las mesas directivas de casilla, entregados por los Capacitadores Asistentes Electorales, asi como captura de simulacros, practicas, verificaciones, etc."
@@ -52,45 +58,52 @@
     "jobs" : [
       {
         "jobName"   : "Soporte Informático Municipal",
+        "project"   : "Censo de Población y Vivienda 2020",
         "startDate" : "1/Jan/2020",
         "endDate"   : "15/May/2020",
-        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+        "functions" : "Llevar un control del inventario de dispositivos de computo móviles del personal de campo y personal administrativo. Dar asesoria y soporte técnico en el manejo de sistemas. realizar una bitácora de servicios proporcionados a los usuarios como fallas reportadas y solución de las mismas."
       },
       {
         "jobName"   : "Soporte Informático",
+        "project"   : "Censo Económico 2019",
         "startDate" : "3/Jan/2019",
         "endDate"   : "31/May/2019",
-        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+        "functions" : "Llevar un control del inventario de dispositivos de computo móviles del personal de campo y personal administrativo. Dar asesoria y soporte técnico en el manejo de sistemas. realizar una bitácora de servicios proporcionados a los usuarios como fallas reportadas y solución de las mismas."
       },
       {
         "jobName"   : "Técnico Informático de la Jefatura de Zona",
+        "project"   : "Actualización del Marco Geoestadístico del Censo Agropecuario 2017",
         "startDate" : "18/Jul/2016",
         "endDate"   : "31/Dic/2016",
-        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+        "functions" : "Llevar un control del inventario de dispositivos de computo móviles del personal de campo y personal administrativo. Dar asesoria y soporte técnico en el manejo de sistemas. realizar una bitácora de servicios proporcionados a los usuarios como fallas reportadas y solución de las mismas."
       },
       {
         "jobName"   : "Soporte Técnico de Zona de Proyectos Estadísticos",
+        "project"   : "Encuesta Intercensal 2015",
         "startDate" : "2/Feb/2015",
         "endDate"   : "30/Jun/2015",
-        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+        "functions" : "Llevar un control del inventario de dispositivos de computo móviles del personal de campo y personal administrativo. Dar asesoria y soporte técnico en el manejo de sistemas. realizar una bitácora de servicios proporcionados a los usuarios como fallas reportadas y solución de las mismas."
       },
       {
         "jobName"   : "Soporte Técnico de Zona",
+        "project"   : "Actualización Cartográfica del MArco Geostadístico",
         "startDate" : "25/Jun/2014",
         "endDate"   : "15/Dic/2014",
-        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+        "functions" : "Llevar un control del inventario de dispositivos de computo móviles del personal de campo y personal administrativo. Dar asesoria y soporte técnico en el manejo de sistemas. realizar una bitácora de servicios proporcionados a los usuarios como fallas reportadas y solución de las mismas."
       },
       {
         "jobName"   : "Analista de Sistemas",
+        "project"   : "Muestra Rural del Censo Económico 2014",
         "startDate" : "12/May/2014",
         "endDate"   : "24/Jun/2014",
-        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+        "functions" : "Llevar un control del inventario de dispositivos de computo móviles del personal de campo y personal administrativo. Dar asesoria y soporte técnico en el manejo de sistemas. realizar una bitácora de servicios proporcionados a los usuarios como fallas reportadas y solución de las mismas."
       },
       {
         "jobName"   : "Censor",
+        "project"   : "Censo Económico 2014",
         "startDate" : "1/Feb/2014",
         "endDate"   : "25/Abr/2014",
-        "functions" : "Realizar las actividades indicadas por el VCEYEC para el procedimiento de reclutamiento, selección y contratación de supervisores y capacitadores asistentes electorales (Integración de expedientes, traslado a sedes para aplicación del examen, evaluación curricular, plática de inducción, expedientes para entrevista, etc.)"
+        "functions" : "Acudir a los domicilios de las áreas geostadísticas correspondientes para realizar el censo económico a los establecimientos o viviendas en las que se realizan actividades económicas y reportar al Supervisor los avances diarios"
       }
     ]     
   },
@@ -100,6 +113,7 @@
     "jobs" : [
       {
         "jobName"   : "Ingeniero de Soporte en Campo",
+        "project"   : "Transición de sistema XPOS a tiendas Oxxo",
         "startDate" : "13/Feb/2017",
         "endDate"   : "6/May/2017",
         "functions" : "Realizar la transición del sistema de punto de venta de las tiendas Oxxo al sistema XPOS, hacer pruebas del sistema y dar soporte en sitio a las tiendas con el nuevo sistema"
