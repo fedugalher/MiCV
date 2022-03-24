@@ -105,9 +105,11 @@ h5{
 .btn-cv{
   width: 300px;
   background-color: #0270af;
+  color: white;
 }
 .btn-cv:hover{
   background-color: #002c45;
+  color:white;
 }
 .btn-cv:focus{
  outline: none;
